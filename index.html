@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kaltik</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Kalkulator Persegi By: Pramudya Adi</h1>
+
+  <!-- Form untuk menghitung luas -->
+  <h2>Menghitung Luas</h2>
+  <h3>Rumus Luas : S*S</h3>
+  <form id="luas-form">
+    <label for="sisi-luas">Masukan Sisi:</label>
+    <input type="number" id="sisi-luas" required>
+    <button type="submit" id="hitung-luas">Hitung</button>
+  </form>
+  <p>Luas: <span id="output-luas"></span></p>
+
+  <!-- Form untuk menghitung keliling -->
+  <h2>Menghitung Keliling</h2>
+  <h3>Rumus Keliling : 4*S</h3>
+  <form id="keliling-form">
+    <label for="sisi-keliling">Masukan Sisi:</label>
+    <input type="number" id="sisi-keliling" required>
+    <button type="submit" id="hitung-keliling">Hitung</button>
+  </form>
+  <p>Keliling: <span id="output-keliling"></span></p>
+
+  <h3>S = Sisi</h3>
+  <h3>K = Keliling</h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
